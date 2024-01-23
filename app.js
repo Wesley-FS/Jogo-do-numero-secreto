@@ -7,7 +7,7 @@ let numeroSecreto = gerarNumeroAleatorio();
 
 
 function gerarNumeroAleatorio() {
-    let numeroEscolhido = parseInt(Math.random() * 10 + 1);
+    let numeroEscolhido = parseInt(Math.random() * 100 + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
 
     if(quantidadeDeElementosNaLista == numeroLimite){
